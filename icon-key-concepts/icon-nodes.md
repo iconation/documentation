@@ -55,7 +55,7 @@ It is designed that no trasanctions and queries are supposed to access the Peer 
 This architecture keeps the Peer nodes focusing on consensus, that is, producing and validating blocks. 
 Limited access to Peer nodes makes the ICON network more safe.
 
-Since Citizen verify the blocks and transactions, Exchanges or DApp operator had better running Citizen inside their network, rather than using publicly opened Citizen outside the network.
+Since Citizen verifys the blocks and transactions and provides the verified blockchain data to the clients, Exchanges or DApp operator had better running Citizen inside their network, rather than using publicly opened Citizen outside the network.
 
 ## Light Client
 
